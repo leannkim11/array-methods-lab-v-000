@@ -2,7 +2,8 @@ array = ["wow", "I", "am", "really", "learning", "arrays!"]
 def using_include(array, element)
   element_one = "wow"
   element_two = "I"
-  array.include? ("wow", "I")
+  array.include? (array, "I")
+  array.include? (array,"wow")
 end
 
 def using_sort(array)
